@@ -1,4 +1,3 @@
-
 {
   "name": "gatsby-plugin-force-trailing-slashes",
   "description": "Stub description for gatsby-plugin-force-trailing-slashes",
@@ -13,6 +12,7 @@
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.51",
     "@babel/core": "7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.53",
     "cross-env": "^5.1.4"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-force-trailing-slashes#readme",
