@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-force-trailing-slashes",
   "description": "Forces trailing slashes on all pages",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "bay.phillips@gmail.com",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
