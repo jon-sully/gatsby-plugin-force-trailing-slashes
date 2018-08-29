@@ -32,7 +32,7 @@ You can optionally provide additional paths to exclude from having being changed
     {
       resolve: `gatsby-plugin-force-trailing-slashes`,
       options: {
-        excludedPaths: [`404.html`, `my-dedicated-route`],
+        excludedPaths: [`/404.html`, `/my-dedicated-route`],
       },
     },
   ]
