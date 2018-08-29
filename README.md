@@ -25,7 +25,7 @@ Then configure via `gatsby-config.js`.
 
 ### Options
 
-You can optionally provide additional paths to exclude from having being changed.
+You can optionally provide additional paths to exclude from being changed.
 
 ```js
   plugins: [
