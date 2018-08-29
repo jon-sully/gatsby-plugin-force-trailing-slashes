@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-force-trailing-slashes",
   "description": "Forces trailing slashes on all pages",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "bay.phillips@gmail.com",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
@@ -13,12 +13,14 @@
     "@babel/cli": "7.0.0-beta.51",
     "@babel/core": "7.0.0-beta.51",
     "@babel/preset-env": "^7.0.0-beta.53",
-    "cross-env": "^5.1.4"
+    "cross-env": "^5.1.4",
+    "lodash": "^4.17.10"
   },
   "homepage": "https://github.com/BayPhillips/gatsby-plugin-force-trailing-slashes#readme",
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "slash"
   ],
   "license": "MIT",
   "main": "index.js",
