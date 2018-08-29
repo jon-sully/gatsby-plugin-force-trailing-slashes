@@ -23,4 +23,20 @@ Then configure via `gatsby-config.js`.
 }
 ```
 
-That's it.
+### Options
+
+You can optionally provide additional paths to exclude from having being changed.
+
+```js
+  plugins: [
+    {
+      resolve: `gatsby-plugin-force-trailing-slashes`,
+      options: {
+        excludedPaths: [`/404.html`, `/my-dedicated-route`],
+      },
+    },
+  ]
+
+## Requirements
+
+Requires Gatsby v2
