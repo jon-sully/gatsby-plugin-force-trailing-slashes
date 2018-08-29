@@ -36,6 +36,7 @@ You can optionally provide additional paths to exclude from being changed.
       },
     },
   ]
+```
 
 ## Requirements
 
