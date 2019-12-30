@@ -38,6 +38,19 @@ You can optionally provide additional paths to exclude from being changed.
   ]
 ```
 
+### Troubleshooting
+
+If you're using `gatsby-plugin-offline` make sure place this plugin _after_ the offline one and to modify your offline plugin like so:
+
+```
+{
+    resolve: 'gatsby-plugin-offline',
+    options: {
+        navigateFallbackWhitelist: [/\/$/],
+    }
+}
+```
+
 ## Requirements
 
 Requires Gatsby v2
