@@ -7,13 +7,14 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "@babel/runtime": "7.0.0-beta.51"
+    "@babel/runtime": "7.6.3"
   },
   "devDependencies": {
-    "@babel/cli": "7.0.0-beta.51",
-    "@babel/core": "7.0.0-beta.51",
-    "@babel/preset-env": "^7.0.0-beta.53",
+    "@babel/cli": "7.6.4",
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "cross-env": "^5.1.4",
+    "jest": "^24.9.0",
     "lodash": "^4.17.10"
   },
   "homepage": "https://github.com/BayPhillips/gatsby-plugin-force-trailing-slashes#readme",
@@ -31,6 +32,7 @@
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
+    "test": "jest",
     "watch": "babel -w src --out-dir . --ignore **/__tests__"
   }
 }
