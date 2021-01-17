@@ -1,4 +1,3 @@
-const _ = require(`lodash`)
 const replacePath = _path => (_path === `/` ? _path : _path.replace(/\/$|$/, `/`))
 
 const defaultOptions = {
@@ -7,7 +6,7 @@ const defaultOptions = {
 
 exports.onCreatePage = ({ page, actions }, pluginOptions) => {
   const { createPage, deletePage } = actions
-  const options = _.defaults(pluginOptions, defaultOptions)
+  const options = { ...defaultOptions, ...pluginOptions }
 
   return new Promise(resolve => {
     if(!options.excludedPaths.includes(page.path)) {
