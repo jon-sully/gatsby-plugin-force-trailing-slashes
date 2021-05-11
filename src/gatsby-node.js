@@ -8,15 +8,12 @@ exports.onCreatePage = ({ page, actions }, pluginOptions) => {
   const { createPage, deletePage } = actions
   const options = { ...defaultOptions, ...pluginOptions }
 
-  return new Promise(resolve => {
-    if(!options.excludedPaths.includes(page.path)) {
-      const oldPage = Object.assign({}, page)
-      page.path = replacePath(page.path)
-      if (page.path !== oldPage.path) {
-        deletePage(oldPage)
-        createPage(page)
-      }
+  if(!options.excludedPaths.includes(page.path)) {
+    const oldPage = Object.assign({}, page)
+    page.path = replacePath(page.path)
+    if (page.path !== oldPage.path) {
+      deletePage(oldPage)
+      createPage(page)
     }
-    resolve()
-  })
+  }
 }
