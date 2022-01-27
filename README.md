@@ -1,3 +1,5 @@
+❗❗❗ Deprecation Notice: Gatsby now let you configure trailing slash out of the box. See [documentation](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/#trailingslash/)
+
 # gatsby-plugin-force-trailing-slashes
 
 This plugin is one component of unifying a Gatsby site to _use_ trailing slashes. To correctly configure a Gatsby site to use trailing slashes, you need the following **three** pieces in place:
