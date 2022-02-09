@@ -23,6 +23,7 @@ exports.onCreatePage = ({ page, actions }, pluginOptions) => {
 
 exports.onPreInit = ({ reporter }) => {
   reporter.warn(
-    `gatsby-plugin-remove-trailing-slashes: Gatsby now has a trailingSlash option. Learn more at https://gatsby.dev/trailing-slash`
+    `gatsby-plugin-force-trailing-slashes: Gatsby now has a trailingSlash option. Learn more at https://gatsby.dev/trailing-slash`
+
   )
 }
