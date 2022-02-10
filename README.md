@@ -1,6 +1,14 @@
 # gatsby-plugin-force-trailing-slashes
 
-**Please Note:** This plugin will soon be deprecated, please use Gatsby's `trailingSlash` option. Read the [documentation](https://gatsby.dev/trailing-slash) to learn more.
+### ‼️ HEADS UP:
+
+**This plugin will soon be deprecated**, please use Gatsby's new `trailingSlash` option. Read the [documentation](https://gatsby.dev/trailing-slash) to learn more.
+
+**NO FURTHER UPDATES TO THIS PLUGIN WILL BE SHIPPED**
+
+---
+
+Old:
 
 This plugin is one component of unifying a Gatsby site to _use_ trailing slashes. To correctly configure a Gatsby site to use trailing slashes, you need the following **three** pieces in place:
 
