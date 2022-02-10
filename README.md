@@ -1,5 +1,7 @@
 # gatsby-plugin-force-trailing-slashes
 
+**Please Note:** This plugin will soon be deprecated, please use Gatsby's `trailingSlash` option. Read the [documentation](https://gatsby.dev/trailing-slash) to learn more.
+
 This plugin is one component of unifying a Gatsby site to _use_ trailing slashes. To correctly configure a Gatsby site to use trailing slashes, you need the following **three** pieces in place:
 
 1. A web-server that treats trailing-slash paths as directories with an `index.html` inside and non-trailing-slash paths as _named documents_ (and ideally redirects directory requests without a trailing slash _to_ the trailing slash variant)
