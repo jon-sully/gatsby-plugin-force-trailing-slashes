@@ -2,7 +2,7 @@
 
 ### ‼️ HEADS UP:
 
-**This plugin will soon be deprecated**, please use Gatsby's new `trailingSlash` option. Read the [documentation](https://gatsby.dev/trailing-slash) to learn more.
+**This plugin will soon be deprecated**, please use Gatsby's new `trailingSlash` option. Read the [documentation](https://www.gatsbyjs.com/docs/reference/release-notes/v4.7/#trailingslash-option) to learn more.
 
 **NO FURTHER UPDATES TO THIS PLUGIN WILL BE SHIPPED**
 
